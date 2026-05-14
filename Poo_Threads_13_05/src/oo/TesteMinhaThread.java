@@ -2,7 +2,7 @@ package oo;
 
 public class TesteMinhaThread {
 	public static void main(String args[]){
-		MinhaThread a,b;
+		MinhaThread a,b,c;
 		a = new MinhaThread("Joao");
 		b = new MinhaThread("Jose");
 		c = new MinhaThread("Pedro");
