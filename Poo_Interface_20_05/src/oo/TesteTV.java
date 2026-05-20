@@ -3,10 +3,13 @@ package oo;
 public class TesteTV {
 
 	public static void main(String[] args) {
-		TV tvCCE = new TV();
-		tvCCE.ligaTV();
-		tvCCE.mudaCanalTV(10);
-		tvCCE.desligaTV();
+		TV tvLG = new TV();
+		tvLG.ligaTV();
+		tvLG.mudaCanalTV(10);
+		tvLG.conectarInternet("minhacasa");
+		tvLG.instalarApp("primevideo");
+		tvLG.navegarInternet();
+		tvLG.desligaTV();
 	}
 
 }
